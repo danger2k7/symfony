@@ -62,6 +62,10 @@ class UnsupportedSchemeException extends LogicException
             'class' => Bridge\Sinch\SinchTransportFactory::class,
             'package' => 'symfony/sinch-notifier',
         ],
+        'isendpro' => [
+            'class' => Bridge\ISendPro\ISendProTransportFactory::class,
+            'package' => 'symfony/isendpro-notifier',
+        ],
     ];
 
     /**
